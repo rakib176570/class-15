@@ -1,0 +1,133 @@
+.hedar{
+    background: #192a56;
+}
+.logo {
+    padding: 2px 0;
+    margin: 5px 10px;
+}
+.logo a img{
+    height: 100px;
+    width: auto;
+}
+.manu {
+    
+}
+.manu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.manu ul li{
+    display: inline-block;
+    padding: 0 10px;
+    margin: 35px 0;
+ 
+}
+.manu ul li a{
+    color: #ddd;
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.manu ul li a:hover{
+    color: rgb(3, 90, 189);
+}
+/* banar */
+
+.banar {
+    background-image: url(https://i.ibb.co/ZWYcpZ8/intro-bg.jpg);
+    padding: 400px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banar::after{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: ;
+}
+.banar h1{
+    color: #ddd;
+   font-size: 50px;
+    padding: 80px 0;
+}
+.banar p{
+    color: #ddd;
+    padding-bottom: 30px;
+}
+.botom{
+    color: white;
+  
+  display: inline-block;
+}
+.botom a{
+    display: inline-block;
+    background-color: #3498db;
+    padding: 12px 45px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 33px;
+    color: #ddd;
+    transition: .5s;
+}
+
+
+.botom a:hover{
+    background: red;
+    color: #000;
+}
+
+
+/* meet */
+.meet{
+   background-color: #a29bfe;
+   padding: 150px ;
+}
+.min h1{
+    font-size: 60px;
+    padding-bottom: 60px;
+    
+}
+.imge h1{
+    text-align: center;
+}
+.imge a{
+    background-color: #2980b9;
+    text-decoration: none;
+    color: #ddd;
+    padding: 10px 10px;
+}
+.imge a:hover{
+    color: rgb(3, 90, 189);
+    /* About */
+}
+.about{
+    background-color:#95afc0;
+}
+.about h1{
+    font-size: 50px;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+/* contact */
+.contact{
+    margin-bottom: 20px;
+}
+.contact h1{
+    margin: 40px 0;
+    font-size: 50px;
+}
+/* futer */
+.futer{
+    background-color: rgb(35, 84, 245);
+    padding-top: 50px 0;
+}
+.futer p{
+    font-size: 20px;
+    margin: 10px 0;
+    color: #ddd;
+}
